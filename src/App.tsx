@@ -1,24 +1,17 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <img src="" className="logo" alt="logo" />
-        <a href="" target="_blank">
-          <img src="" className="logo" alt="logo" />
-        </a>
-      </div>
+      <h2>Selecione um site</h2>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button>Site 01
         </button>
-        <p>
-          Edit <code>src/App.tsx</code>
-        </p>
+        <button>Site 02
+        </button>
+        <button>Site 03
+        </button>
       </div>
     </>
   )
