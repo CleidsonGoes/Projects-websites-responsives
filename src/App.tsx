@@ -1,5 +1,5 @@
-// import { useState } from 'react'
 import './App.css'
+import SiteOne from './components/Site01'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <button>Site 03
         </button>
       </div>
+      <SiteOne/>
     </>
   )
 }

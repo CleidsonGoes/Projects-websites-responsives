@@ -1,3 +1,5 @@
+import './Site01.css'
+
 function SiteOne() {
   return(
     <body>
