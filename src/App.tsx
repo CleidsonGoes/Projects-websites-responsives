@@ -1,20 +1,15 @@
+import { Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import SiteOne from './components/Site01'
+import PageInitial from './components/PageInitial'
 
 function App() {
   return (
-    <>
-      <h2>Selecione um site</h2>
-      <div className="card">
-        <button>Site 01
-        </button>
-        <button>Site 02
-        </button>
-        <button>Site 03
-        </button>
-      </div>
-      <SiteOne/>
-    </>
+    <Routes>
+      <Route path='/site01' element={<SiteOne/>} />
+      <Route path='/' element={<PageInitial/>} />
+      <Route path='*' element={<Navigate to='/' />} />
+    </Routes>
   )
 }
 
