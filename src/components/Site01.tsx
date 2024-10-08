@@ -22,7 +22,10 @@ function SiteOne() {
         </div>
       </section>
       <script type="text/javascript">
-        window.addEventListener
+        {window.addEventListener('scroll', function() {
+          const header = document.querySelector('header');
+          header.classList.toggle("sticky", window.scrollY > 0)
+        })}
       </script>
     </body>
   )
