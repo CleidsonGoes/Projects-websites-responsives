@@ -1,5 +1,6 @@
 import './Site01.css'
 import img01 from '../assets/img01.jpg'
+import salad from '../assets/salad.jpg'
 
 function SiteOne() {
   return(
@@ -31,6 +32,66 @@ function SiteOne() {
           <div className='imgBx'>
             <img src={img01} alt='imagem 01'/>
           </div>
+        </div>
+      </section>
+      <section className='menu' id='menu'>
+        <div className='title'>
+          <h2 className='titleText'>Our <span>M</span>enu</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className='content'>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={salad} alt="" />
+            </div>
+            <div className='text'>
+              <h3>Special Salads</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src="menu2.jpg" alt="" />
+            </div>
+            <div className='text'>
+              <h3>Special Soup</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src="menu3.jpg" alt="" />
+            </div>
+            <div className='text'>
+              <h3>Special Pasta</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src="menu4.jpg" alt="" />
+            </div>
+            <div className='text'>
+              <h3>Special Salads</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src="menu5.jpg" alt="" />
+            </div>
+            <div className='text'>
+              <h3>Special Soup</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src="menu6.jpg" alt="" />
+            </div>
+            <div className='text'>
+              <h3>Special Pasta</h3>
+            </div>
+          </div>
+        </div>
+        <div className='title'>
+          <h2 className='titleText'>Our <span>M</span>enu</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </section>
       <script type="text/javascript">

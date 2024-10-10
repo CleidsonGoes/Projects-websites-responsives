@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;/* para rolamento suave ao clicar numa <a> e mudar de <section> */
 }
 
 p
