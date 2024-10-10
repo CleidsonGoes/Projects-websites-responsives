@@ -6,6 +6,10 @@ import soup from '../assets/soup.jpg'
 import soup2 from '../assets/soup2.jpg'
 import pasta from '../assets/pasta.jpg'
 import pasta2 from '../assets/pasta2.jpg'
+import expert1 from '../assets/expert01.jpg'
+import expert2 from '../assets/expert02.jpg'
+import expert3 from '../assets/expert03.jpg'
+import expert4 from '../assets/expert04.jpg'
 
 function SiteOne() {
   return(
@@ -96,6 +100,46 @@ function SiteOne() {
         </div>
         <div className='title'>
           <a href="#" className='btn'>View all</a>
+        </div>
+      </section>
+      <section className='expert' id='expert'>
+        <div className='title'>
+          <h2 className='titleText'>Our Kitchen <span>E</span>xpert</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className='content'>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={expert1} alt="expert1" />
+            </div>
+            <div className='text'>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={expert2} alt="expert2" />
+            </div>
+            <div className='text'>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={expert3} alt="expert3" />
+            </div>
+            <div className='text'>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={expert4} alt="expert4" />
+            </div>
+            <div className='text'>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
         </div>
       </section>
       <script type="text/javascript">
