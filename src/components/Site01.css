@@ -182,3 +182,21 @@ section
     height: 100%;
     object-fit: cover;
 }
+
+.title
+{
+    background: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
