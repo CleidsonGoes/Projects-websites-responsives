@@ -1,6 +1,11 @@
 import './Site01.css'
 import img01 from '../assets/img01.jpg'
 import salad from '../assets/salad.jpg'
+import salad2 from '../assets/salad2.jpg'
+import soup from '../assets/soup.jpg'
+import soup2 from '../assets/soup2.jpg'
+import pasta from '../assets/pasta.jpg'
+import pasta2 from '../assets/pasta2.jpg'
 
 function SiteOne() {
   return(
@@ -50,7 +55,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src="menu2.jpg" alt="" />
+              <img src={soup} alt="" />
             </div>
             <div className='text'>
               <h3>Special Soup</h3>
@@ -58,7 +63,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src="menu3.jpg" alt="" />
+              <img src={pasta} alt="" />
             </div>
             <div className='text'>
               <h3>Special Pasta</h3>
@@ -66,7 +71,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src="menu4.jpg" alt="" />
+              <img src={salad2} alt="" />
             </div>
             <div className='text'>
               <h3>Special Salads</h3>
@@ -74,7 +79,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src="menu5.jpg" alt="" />
+              <img src={soup2} alt="" />
             </div>
             <div className='text'>
               <h3>Special Soup</h3>
@@ -82,7 +87,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src="menu6.jpg" alt="" />
+              <img src={pasta2} alt="" />
             </div>
             <div className='text'>
               <h3>Special Pasta</h3>
@@ -90,8 +95,7 @@ function SiteOne() {
           </div>
         </div>
         <div className='title'>
-          <h2 className='titleText'>Our <span>M</span>enu</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" className='btn'>View all</a>
         </div>
       </section>
       <script type="text/javascript">
