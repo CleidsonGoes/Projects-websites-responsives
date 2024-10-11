@@ -146,7 +146,7 @@ function SiteOne() {
         </div>
       </section>
       <section className='testimonials' id='testimonials'>
-        <div className='title white'>
+        <div className='title whitee'>
           <h2 className='titleText'>They <span>S</span>aid About Us</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -162,7 +162,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src={testi2} alt="testi1" />
+              <img src={testi2} alt="testi2" />
             </div>
             <div className='text'>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
@@ -171,7 +171,7 @@ function SiteOne() {
           </div>
           <div className='box'>
             <div className='imgBx'>
-              <img src={testi3} alt="testi1" />
+              <img src={testi3} alt="testi3" />
             </div>
             <div className='text'>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
