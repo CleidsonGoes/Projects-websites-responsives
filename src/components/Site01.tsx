@@ -10,6 +10,9 @@ import expert1 from '../assets/expert01.jpg'
 import expert2 from '../assets/expert02.jpg'
 import expert3 from '../assets/expert03.jpg'
 import expert4 from '../assets/expert04.jpg'
+import testi1 from '../assets/testi1.jpg'
+import testi2 from '../assets/testi2.jpg'
+import testi3 from '../assets/testi3.jpg'
 
 function SiteOne() {
   return(
@@ -137,6 +140,41 @@ function SiteOne() {
               <img src={expert4} alt="expert4" />
             </div>
             <div className='text'>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='testimonials' id='testimonials'>
+        <div className='title whitee'>
+          <h2 className='titleText'>They <span>S</span>aid About Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className='content'>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={testi1} alt="testi1" />
+            </div>
+            <div className='text'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={testi2} alt="testi2" />
+            </div>
+            <div className='text'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div className='box'>
+            <div className='imgBx'>
+              <img src={testi3} alt="testi3" />
+            </div>
+            <div className='text'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
               <h3>Someone Famous</h3>
             </div>
           </div>
