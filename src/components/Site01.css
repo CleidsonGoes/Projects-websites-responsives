@@ -331,3 +331,23 @@ section
     height: 100%;
     object-fit: cover;
 }
+
+.testimonials .content .box .text
+{
+    text-align: center;
+}
+
+.testimonials .content .box .text p
+{
+    color: #666;
+    font-style: italic;
+}
+
+.testimonials .content .box .text h3
+{
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: #ff0157;
+    font-weight: 600;
+}
