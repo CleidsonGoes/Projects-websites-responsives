@@ -156,7 +156,7 @@ function SiteOne() {
               <img src={testi1} alt="testi1" />
             </div>
             <div className='text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum</p>
               <h3>Someone Famous</h3>
             </div>
           </div>
@@ -165,7 +165,7 @@ function SiteOne() {
               <img src={testi2} alt="testi2" />
             </div>
             <div className='text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum</p>
               <h3>Someone Famous</h3>
             </div>
           </div>
@@ -174,9 +174,30 @@ function SiteOne() {
               <img src={testi3} alt="testi3" />
             </div>
             <div className='text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum, repudiandae blanditiis dolorem reiciendis magni numquam nihil nobis?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur provident ratione neque ab porro dolore repellendus dolorum, officia optio exercitationem rerum</p>
               <h3>Someone Famous</h3>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className='contact' id='contact'>
+        <div className='title'>
+          <h2 className='titleText'><span>C</span>ontact Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className='contactForm'>
+          <h3>Send Message</h3>
+          <div className='inputBox'>
+            <input type="text" placeholder='Name'/>
+          </div>
+          <div className='inputBox'>
+            <input type="text" placeholder='Email'/>
+          </div>
+          <div className='inputBox'>
+            <textarea name="" id="" placeholder='Name'></textarea>
+          </div>
+          <div className='inputBox'>
+            <input type="submit" placeholder='Name'/>
           </div>
         </div>
       </section>
