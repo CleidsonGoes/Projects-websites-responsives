@@ -197,7 +197,7 @@ function SiteOne() {
             <textarea name="" id="" placeholder='Name'></textarea>
           </div>
           <div className='inputBox'>
-            <input type="submit" placeholder='Name'/>
+            <input type="submit" value="Send"/>
           </div>
         </div>
       </section>
