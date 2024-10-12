@@ -201,6 +201,9 @@ function SiteOne() {
           </div>
         </div>
       </section>
+      <div className='copyrightText'>
+        <p>Copyright 2024 <a href="#">Cleidson Goes</a>. All Right Reserved</p>
+      </div>
       <script type="text/javascript">
         {window.addEventListener('scroll', function() {
           const header = document.querySelector('header');
